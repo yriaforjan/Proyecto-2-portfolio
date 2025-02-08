@@ -15,6 +15,6 @@ export const About = () => {
         <p>Currently, I'm focusing on both front-end and back-end development</span>, excited to grow and develop my skills every day. Although I'm still early in my career, I'm eager to contribute to the web development community and collaborate on interesting projects.</p>
         <p>While I'm not coding, you'll find me surfing, hitting the gym, spending time with my friends or enjoying moments with my family. I also used to compete professionally in athletics, specializing in long jump, where I won several Spanish national titles. Those experiences taught me the importance of discipline and perseverance, which I now apply to my work as a developer. Oh, and I can't live without music - I'm always listening to it, no matter what I'm doing!</p>
         <p>If you're interested in collaborating or simply want to chat about web development, feel free to reach out!</p>
-        <img src="./public/images/memoji2.webp" alt="yria memoji">
+        <img src="/images/memoji2.webp" alt="yria memoji">
       </section>`;
 };
