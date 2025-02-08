@@ -1,0 +1,33 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+    gap: 4rem;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+footer > h3 {
+    font-family: "Roboto Mono";
+    font-size: 1.3rem;
+}
+
+footer > div {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 770px) {
+    footer {
+        padding: 0 2rem;
+        gap: 2rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    footer  div {
+        align-items: center;
+        justify-content: center;
+    }
+}

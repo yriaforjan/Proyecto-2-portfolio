@@ -1,0 +1,77 @@
+.home {
+    padding: 0 8rem;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+    animation: fadeIn 0.5s ease-out forwards; /* animación global en style.css */
+}
+
+.home > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+  
+.home h1 {
+    font-size: 5.5rem;
+    background: linear-gradient(to right, #ab5bf7 0%, #ffd000 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-right: 4px solid transparent;
+    animation: blink 0.5s step-end alternate 6;
+}
+
+@keyframes blink {
+    0% {
+        border-color: transparent;
+    }
+    50% {
+        border-color: var(--primary-dark);
+    }
+    100% {
+        border-color: transparent;
+    }
+}
+
+body.light .home h1 {
+    animation: blink-light 0.5s step-end alternate 6;
+}
+
+@keyframes blink-light {
+    0% {
+        border-color: transparent;
+    }
+    50% {
+        border-color: var(--primary-light);
+    }
+    100% {
+        border-color: transparent;
+    }
+}
+
+.home > div > p {
+    font-size: 1.2rem;
+}
+
+.home > a {
+    font-family: "Roboto Mono";
+    font-size: 1.5rem;
+}
+
+@media (max-width: 700px) {
+    .home {
+      padding: 0 2rem;
+      height: fit-content;
+      margin-top: 2rem;
+      margin-bottom: 4rem;
+    }
+    .home > div > p {
+        text-align: justify;
+    }
+}
