@@ -12,7 +12,7 @@ export const projects = [
     title: "Small Business Website",
     description: "This is my first complete project built with HTML5 and CSS3",
     image:
-      "/images/bisutere2.png",
+      "/images/bisutere.png",
     tech: ["HTML5", "CSS3"],
     github: "https://github.com/yriaforjan/Proyecto-1.git",
     link: "https://www.bisutere.com/",
