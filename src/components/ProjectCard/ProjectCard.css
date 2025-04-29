@@ -13,7 +13,7 @@
     height: 250px;
     border-radius: 0.4rem;
     object-fit: cover;
-    object-position: left;
+    object-position: top center;
 }
 
 .project-card > .header {

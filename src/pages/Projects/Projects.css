@@ -33,6 +33,7 @@
 @media (max-width: 770px) {
     .projects {
         padding: 0 2rem;
+        padding-bottom: 2rem;
         margin: 2rem 0;
     }
     .projects > h3 {
