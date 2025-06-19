@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "Dootzy App",
+    description: "Web planner with offline support, using Vanilla JS and Vite.",
+    image: "/images/dootzy.png",
+    tech: ["JS", "Vite", "PWA", "FullCalendar", "WeatherAPI"],
+    github: "https://github.com/Cvidal84/proyecto5.git",
+    link: "https://dootzy.vercel.app/"
+  },
+  {
     title: "My Digital Resume",
     description: "SPA built with Vite, dynamic content generated with JavaScript, and pure CSS design.",
     image: "/images/cv.png",
