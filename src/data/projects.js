@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "Professional Athlete Landing",
+    description: "Landing page using Vite with Vanilla JS and Tailwind CSS (Private repo)",
+    image: "/images/lidiaparada.png",
+    tech: ["JS", "Vite", "Tailwind", "Intersection Observer", "EmailJS"],
+    github: "https://github.com/yriaforjan/landing-lidiap.git",
+    link: "https://lidiaparada.vercel.app/"
+  },
+  {
     title: "Dootzy App",
     description: "Web planner with offline support, using Vanilla JS and Vite.",
     image: "/images/dootzy.png",
